@@ -9,6 +9,7 @@
 		<property name="connection.datasource">java:/comp/env/jdbc/financeirodb</property>
 		<property name="current_session_context_class">thread</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
+		
 
 		<mapping class="br.com.financeiro.usuario.Usuario"/> 
 		<mapping class="br.com.financeiro.conta.Conta"/>
