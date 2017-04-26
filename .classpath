@@ -18,11 +18,21 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java8u51">
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/facelets-taglib-jsf20-spring-3-0.5.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.faces.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javax.faces-2.2.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/facelets-taglib-jsf20-spring-3-0.5.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/jtds-1.2.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
